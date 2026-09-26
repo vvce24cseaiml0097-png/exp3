@@ -9,11 +9,15 @@ public class App {
 	}
 	public int sub(int a,int b) {
 		return a-b;
+	}	
+	public int mul(int a,int b) {
+		return a*b;
 	}
     public static void main(String[] args) {
     	App app=new App();
     	System.out.println(app.add(8, 7));
     	System.out.println(app.sub(8, 7));
+    	System.out.println(app.mul(8, 7));
     }
         
 }
